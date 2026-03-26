@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>YouTube Lyrics & Subtitles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        input[type='text'] {
+            width: 300px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .download-lyrics {
+            background-color: #ff4757;
+        }
+        .download-subtitles {
+            background-color: #1e90ff;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Lyrics Downloader</h1>
-    <h2>Song Lyrics Downloader</h2>
-    <p>Download lyrics from official YouTube songs:</p>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Example Song 1</a></li>
-        <li><a href="https://www.youtube.com/watch?v=KQ6zrB4ATM0">Example Song 2</a></li>
-    </ul>
-
-    <h2>YouTube Subtitle Downloader</h2>
-    <p>Download subtitles from official YouTube videos:</p>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Example Video 1</a></li>
-        <li><a href="https://www.youtube.com/watch?v=KQ6zrB4ATM0">Example Video 2</a></li>
-    </ul>
+    <h1>Download YouTube Lyrics & Subtitles</h1>
+    <input type="text" id="youtube-url" placeholder="Enter YouTube URL">
+    <br>
+    <button class="button download-lyrics">Download Lyrics</button>
+    <button class="button download-subtitles">Download Subtitles</button>
 </body>
 </html>
